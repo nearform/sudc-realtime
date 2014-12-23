@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var redis_host = process.env.REDIS_HOST||'127.0.0.1'
 
 require('seneca')()
