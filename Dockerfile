@@ -2,9 +2,8 @@
 FROM node
 
 ADD . /
-
 RUN	npm install
 
 EXPOSE 9002
-CMD ["node", "/srv/real-srv.js"]
+CMD node /srv/real-srv.js
 
