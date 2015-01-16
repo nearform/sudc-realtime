@@ -1,5 +1,5 @@
 # DOCKER-VERSION 0.3.4
-FROM node
+FROM node0.10
 
 ADD . /
 RUN	npm install
